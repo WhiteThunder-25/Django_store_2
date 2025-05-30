@@ -1,0 +1,57 @@
+[
+{
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+        "name": "Смесь на основе козьего молока",
+        "description": "Для детей, страдающих проблемами пищеварения",
+        "image": "",
+        "category": 2,
+        "price": "1200.00",
+        "created_at": "2025-05-30",
+        "updated_at": "2025-05-30"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+        "name": "Пюре из зеленого яблока",
+        "description": "Для первого прикорма",
+        "image": "",
+        "category": 2,
+        "price": "54.00",
+        "created_at": "2025-05-30",
+        "updated_at": "2025-05-30"
+    }
+},
+{
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+        "name": "Развивающий коврик \"Бабочка\"",
+        "description": "Для развития малыша с трех месяцев",
+        "image": "",
+        "category": 1,
+        "price": "3400.00",
+        "created_at": "2025-05-30",
+        "updated_at": "2025-05-30"
+    }
+},
+{
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+        "name": "Игрушки",
+        "description": "Товары для детей"
+    }
+},
+{
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+        "name": "Детское питание",
+        "description": "Питание для самых маленьких"
+    }
+}
+]
