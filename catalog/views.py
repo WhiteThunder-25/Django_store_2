@@ -1,5 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
+from .models import Product
 
 
 def home(request):
@@ -15,3 +16,15 @@ def contacts(request):
         return HttpResponse(f"Спасибо за обращение, {name}!")
 
     return render(request,'contacts.html')
+
+
+def product_list(request):
+    products = Product.objects.all()
+    context = {'products': products}
+    return render(request, template_name='product_list.html', context=context)
+
+
+def product_details(request, pk):
+    product = get_object_or_404(Product, pk=pk)
+    context = {'product': product}
+    return render(request, template_name='product_details.html', context=context)
