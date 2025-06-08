@@ -27,8 +27,8 @@
 
 * contacts.html
 * home.html
-* product_details.html
-* products_list.html
+* product_detail.html
+* product_list.html
 
 Приложение Blog содержит 4 рабочих шаблона:
 
