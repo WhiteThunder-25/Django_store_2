@@ -23,3 +23,16 @@
 
 Запуск программы осуществляется через модуль manage.py
 
+Приложение Catalog состоит из 4-х страниц:
+
+contacts.html
+home.html
+product_details.html
+products_list.html
+Приложение Blog содержит 4 рабочих шаблона:
+
+blog_list.html
+blog_detail.html
+blog_form.html
+blog_confirm_delete.html
+Запуск программы осуществляется через модуль manage.py
