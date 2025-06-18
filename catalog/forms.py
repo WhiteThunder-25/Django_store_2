@@ -6,7 +6,7 @@ from django.core.exceptions import ValidationError
 class ProductForm(forms.ModelForm):
     class Meta:
         model = Product
-        exclude = ('created_at', 'updated_at')
+        exclude = ('created_at', 'updated_at', 'owner')
 
     def __init__(self, *args, **kwargs):
         super(ProductForm, self).__init__(*args, **kwargs)
